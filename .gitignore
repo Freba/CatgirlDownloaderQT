@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+*.whl
+
+# Test / type-check / lint caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Qt / QML caches
+*.qmlc
+*.jsc
+
+# Arch Linux packaging (makepkg)
+pkg/
+src/CatgirlDownloaderQT/
+*.pkg.tar.*
+*.src.tar.*
+
+# Flatpak (see install.sh)
+flatpak-build-dir/
+.flatpak-builder/
+repo/
+*.flatpak
+
+# Editors and OS files
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+Thumbs.db
