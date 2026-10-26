@@ -258,7 +258,7 @@ Kirigami.ApplicationWindow {
             }
 
             Controls.Label {
-                text: qsTr("Browse and save anime-style images from multiple sources including nekos.moe, waifu.im, and Danbooru.")
+                text: qsTr("Browse and save anime-style images from multiple sources including nekos.moe, waifu.im, Danbooru, and nekos.best.")
                 wrapMode: Text.WordWrap
                 horizontalAlignment: Text.AlignHCenter
                 Layout.fillWidth: true

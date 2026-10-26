@@ -9,7 +9,7 @@
     <name>Nyarch Linux</name>
   </developer>
   <description>
-    <p>Catgirl Downloader is a desktop application for browsing and saving anime-style images from multiple online sources including nekos.moe, waifu.im, and Danbooru.</p>
+    <p>Catgirl Downloader is a desktop application for browsing and saving anime-style images from multiple online sources including nekos.moe, waifu.im, Danbooru, and nekos.best.</p>
     <p>Built with Kirigami for seamless KDE Plasma integration, it features NSFW filtering, automatic image reload, Danbooru tag search, and easy one-click saving.</p>
   </description>
   <url type="homepage">https://nyarchlinux.moe</url>

@@ -15,12 +15,14 @@ from .types import NSFWOption
 from .catgirl import CatgirlDownloaderAPI
 from .waifu import WaifuDownloaderAPI
 from .danbooru import DanbooruDownloaderAPI
+from .kitsune import KitsuneDownloaderAPI
 
 
 SOURCES = [
     {"key": "catgirl", "name": "Catgirl", "description": "Images from nekos.moe"},
     {"key": "waifu", "name": "Waifu", "description": "Images from waifu.im"},
     {"key": "danbooru", "name": "Danbooru", "description": "Images from danbooru.donmai.us"},
+    {"key": "kitsune", "name": "Kitsune", "description": "Foxgirl images from nekos.best"},
 ]
 
 NSFW_OPTIONS = [opt.value for opt in NSFWOption]
@@ -49,6 +51,7 @@ class Backend(QObject):
             "catgirl": CatgirlDownloaderAPI(settings=self._settings),
             "waifu": WaifuDownloaderAPI(settings=self._settings),
             "danbooru": DanbooruDownloaderAPI(settings=self._settings),
+            "kitsune": KitsuneDownloaderAPI(settings=self._settings),
         }
 
         self._loading = False
